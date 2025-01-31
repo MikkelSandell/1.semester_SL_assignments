@@ -88,18 +88,18 @@ public class FileParser {
 
     public static void main(String[] args) throws Exception {
         System.out.println("Parsing Text File:");
-        parseTextFile("src\\main\\java\\com\\example\\a01_Data_parsing_servers_part1\\data.txt");
+        parseTextFile("demo\\\\src\\\\main\\\\java\\\\com\\\\example\\\\a01_Data_parsing_servers_part1\\\\data.txt");
 
         System.out.println("\nParsing CSV File:");
-        parseCSVFile("src\\main\\java\\com\\example\\a01_Data_parsing_servers_part1\\data.csv");
+        parseCSVFile("demo\\\\src\\\\main\\\\java\\\\com\\\\example\\\\a01_Data_parsing_servers_part1\\\\data.csv");
 
         System.out.println("\nParsing JSON File:");
-        parseJSONFile("src\\main\\java\\com\\example\\a01_Data_parsing_servers_part1\\data.json");
+        parseJSONFile("demo\\\\src\\\\main\\\\java\\\\com\\\\example\\\\a01_Data_parsing_servers_part1\\\\data.json");
 
         System.out.println("\nParsing XML File:");
-        parseXMLFile("src\\main\\java\\com\\example\\a01_Data_parsing_servers_part1\\data.xml");
+        parseXMLFile("demo\\\\src\\\\main\\\\java\\\\com\\\\example\\\\a01_Data_parsing_servers_part1\\\\data.xml");
 
         System.out.println("\nParsing YAML File:");
-        parseYAMLFile("src\\main\\java\\com\\example\\a01_Data_parsing_servers_part1\\data.yaml");
+        parseYAMLFile("demo\\\\src\\\\main\\\\java\\\\com\\\\example\\\\a01_Data_parsing_servers_part1\\\\data.yaml");
     }
 }

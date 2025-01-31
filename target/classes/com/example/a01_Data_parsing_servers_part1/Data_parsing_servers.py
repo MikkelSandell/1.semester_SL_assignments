@@ -66,7 +66,7 @@ def parse_yaml_file(file_path: str):
 
 if __name__ == "__main__":
     # File paths
-    base_path = "src\\main\\java\\com\\example\\a01_Data_parsing_servers_part1\\"
+    base_path = "demo\\src\\main\\java\\com\\example\\a01_Data_parsing_servers_part1\\"
     text_file = base_path + "data.txt"
     csv_file = base_path + "data.csv"
     json_file = base_path + "data.json"
