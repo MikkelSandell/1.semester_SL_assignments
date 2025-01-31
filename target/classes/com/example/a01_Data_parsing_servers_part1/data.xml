@@ -1,0 +1,17 @@
+<products>
+    <product>
+        <name>Product1</name>
+        <price>100</price>
+        <category>Electronics</category>
+    </product>
+    <product>
+        <name>Product2</name>
+        <price>50</price>
+        <category>Clothing</category>
+    </product>
+    <product>
+        <name>Product3</name>
+        <price>25</price>
+        <category>Books</category>
+    </product>
+</products>
