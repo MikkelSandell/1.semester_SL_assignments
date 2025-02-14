@@ -4,6 +4,7 @@ import json
 import yaml
 import xml.etree.ElementTree as ET
 from typing import List
+import os
 
 app = FastAPI()
 
