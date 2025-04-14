@@ -1,8 +1,8 @@
-require('dotenv').config(); // first!
-const express = require('express');
-const session = require('express-session');
-const passport = require('passport');
-require('./auth/auth'); // after dotenv
+import 'dotenv/config'; // loads env variables
+import express from 'express';
+import session from 'express-session';
+import passport from 'passport';
+import './auth/auth.js';
 
 const app = express();
 

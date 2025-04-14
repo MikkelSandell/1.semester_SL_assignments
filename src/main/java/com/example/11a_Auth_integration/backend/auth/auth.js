@@ -1,6 +1,6 @@
-require('dotenv').config(); // in case it's not loaded yet
-const passport = require('passport'); // ✅ This was missing
-const Auth0Strategy = require('passport-auth0');
+import 'dotenv/config';
+import passport from 'passport';
+import { Strategy as Auth0Strategy } from 'passport-auth0';
 
 passport.use(new Auth0Strategy({
   domain: process.env.AUTH0_DOMAIN,
