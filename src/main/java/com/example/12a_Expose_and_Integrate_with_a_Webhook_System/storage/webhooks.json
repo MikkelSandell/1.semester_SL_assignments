@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://teammate123.loca.lt/githubwebhookform",
+    "events": [
+      "ping",
+      "ticket.purchased"
+    ]
+  },
+  {
+    "url": "https://teammate123.loca.lt/githubwebhookform",
+    "events": [
+      "ping",
+      "ticket.purchased"
+    ]
+  },
+  {
+    "url": "https://teammate123.loca.lt/githubwebhookform",
+    "events": [
+      "ping",
+      "ticket.purchased"
+    ]
+  },
+  {
+    "url": "https://teammate123.loca.lt/githubwebhookform",
+    "events": [
+      "ping",
+      "ticket.purchased"
+    ]
+  }
+]

@@ -43,7 +43,7 @@ app.get('/logout', (req, res) => {
     res.redirect('/');
   });
 });
-
+const PORT = process.env.PORT ?? 8080;
 app.listen(process.env.PORT, () => {
   console.log(`Server started on http://localhost:${process.env.PORT}`);
 });
