@@ -8,7 +8,7 @@ videos
 __pycache__/
 *.py[cod]
 *$py.class
-
+docs/
 # C extensions
 *.so
 how_to.txt

@@ -1,0 +1,21 @@
+{
+  "name": "08b",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/grocery_handler/server.js",
+    "build": "npx tsc",
+    "docs": "typedoc"
+  },
+  "dependencies": {
+    "08b": "file:",
+    "express": "^4.18.2",
+    "typeorm": "^0.3.23"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typedoc": "^0.28.3",
+    "typescript": "^5.8.3"
+  }
+}

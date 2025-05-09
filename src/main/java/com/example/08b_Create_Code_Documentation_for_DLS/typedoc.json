@@ -1,0 +1,8 @@
+{
+    "entryPoints": [
+        "src/grocery_handler/**/*.ts"
+    ],
+    "out": "docs",
+    "name": "08b Grocery Handler Documentation",
+    "includeVersion": true
+}

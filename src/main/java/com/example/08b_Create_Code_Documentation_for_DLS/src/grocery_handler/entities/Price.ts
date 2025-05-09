@@ -1,0 +1,24 @@
+import {
+  Entity, PrimaryGeneratedColumn, Column,
+  CreateDateColumn, ManyToMany
+} from 'typeorm';
+import { Grocery } from './Grocery.js';
+
+@Entity()
+export class Price {
+  @PrimaryGeneratedColumn()
+  id?: number;
+
+  @Column('float')
+  price: number;
+
+  @CreateDateColumn()
+  createdAt: Date = new Date();
+
+  @ManyToMany(() => Grocery, (grocery) => grocery.prices)
+  groceries: Grocery[] = [];
+
+  constructor(price: number) {
+    this.price = price;
+  }
+}
