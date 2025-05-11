@@ -1,9 +1,5 @@
 # Step-by-Step Documentation for Setting Up Express with Auth0 Authentication
 
-## Introduction
-
-This guide provides a detailed, step-by-step walkthrough for setting up an Express.js application with Auth0 authentication. By following these instructions, you will be able to create a secure authentication system using Auth0 and Express with Passport.js.
-
 ## Prerequisites
 
 1. Node.js and npm installed on your system.
