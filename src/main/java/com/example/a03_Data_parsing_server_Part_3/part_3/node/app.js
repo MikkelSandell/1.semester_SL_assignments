@@ -9,7 +9,7 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const dataFolder = path.resolve(__dirname, '../..'); // Move up from "part_2/node"
+const dataFolder = path.resolve(__dirname, '../..');
 
 const app = express();
 
