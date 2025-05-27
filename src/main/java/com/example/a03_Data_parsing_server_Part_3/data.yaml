@@ -1,0 +1,10 @@
+products:
+  - name: Product1
+    price: 100
+    category: Electronics
+  - name: Product2
+    price: 50
+    category: Clothing
+  - name: Product3
+    price: 25
+    category: Books
