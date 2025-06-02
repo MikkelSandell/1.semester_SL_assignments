@@ -45,8 +45,3 @@ type Mutation {
     "Delete a book by id"
     deleteBook(id: ID!): SuccessMessage
 }
-
-type Subscription {
-    "Updates when a new book has been added"
-    bookAdded: Book
-}
